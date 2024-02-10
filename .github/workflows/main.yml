@@ -2,7 +2,7 @@ name: Gitee repos mirror periodic job for Visxcion
 
 on:
   push: # 有 push 代码的时候会执行
-    branches: [ main ]
+    branches: [ master ]
   # pull_request: # 有 pull_request 代码的时候会执行
     # branches: [ main ]
   schedule: 
